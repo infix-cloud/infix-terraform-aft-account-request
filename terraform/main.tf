@@ -8,9 +8,9 @@ module "infix_dev" {
     AccountEmail              = "dev@infix.cloud"
     AccountName               = "Infix-Dev"
     ManagedOrganizationalUnit = "Infix-PreProd"
-    SSOUserEmail              = "mukesh.awasthi@adex.ltd"
-    SSOUserFirstName          = "Mukesh"
-    SSOUserLastName           = "Awasthi"
+    SSOUserEmail              = "dev@infix.cloud"
+    SSOUserFirstName          = "Infix"
+    SSOUserLastName           = "Dev"
   }
 
   account_tags = {
@@ -39,9 +39,9 @@ module "infix_stage" {
     AccountEmail              = "stage@infix.cloud"
     AccountName               = "Infix-Stage"
     ManagedOrganizationalUnit = "Infix-PreProd"
-    SSOUserEmail              = "mukesh.awasthi@adex.ltd"
-    SSOUserFirstName          = "Mukesh"
-    SSOUserLastName           = "Awasthi"
+    SSOUserEmail              = "stage@infix.cloud"
+    SSOUserFirstName          = "Infix"
+    SSOUserLastName           = "Stage"
   }
 
   account_tags = {
@@ -73,9 +73,9 @@ module "infix_prod" {
     AccountEmail              = "prod@infix.cloud"
     AccountName               = "Infix-Prod"
     ManagedOrganizationalUnit = "Infix-Prod"
-    SSOUserEmail              = "mukesh.awasthi@adex.ltd"
-    SSOUserFirstName          = "Mukesh"
-    SSOUserLastName           = "Awasthi"
+    SSOUserEmail              = "prod@infix.cloud"
+    SSOUserFirstName          = "Infix"
+    SSOUserLastName           = "Prod"
   }
 
   account_tags = {
@@ -107,9 +107,9 @@ module "infix_devops" {
     AccountEmail              = "devops@infix.cloud"
     AccountName               = "Infix-DevOps"
     ManagedOrganizationalUnit = "Infix-DevOps"
-    SSOUserEmail              = "mukesh.awasthi@adex.ltd"
-    SSOUserFirstName          = "Mukesh"
-    SSOUserLastName           = "Awasthi"
+    SSOUserEmail              = "devops@infix.cloud"
+    SSOUserFirstName          = "Infix"
+    SSOUserLastName           = "DevOps"
   }
 
   account_tags = {
